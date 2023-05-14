@@ -1,11 +1,11 @@
 import Image from "next/image";
-import logo from '../../public/circle-logo.svg';
 import Link from "next/link";
 
 import { MdDownloading } from "react-icons/md";
 
 import Project from "@/app/components/project";
 import Socials from "@/app/components/socials";
+import logo from '../../public/logo.svg';
 
 import projects from "./projects-data";
 
@@ -18,8 +18,8 @@ export default function Home() {
             className="flex-shrink-0"
             src={logo}
             alt={"Logo icon"}
-            width={45}
-            height={48}
+            width={65}
+            height={57}
           />
 
           <Link href={'./Marijana_Sevo_CV.pdf'} download target={"_blank"} className="cursor-pointer py-2 px-3 rounded flex gap-1 items-center font-bold transition text-grayish font-serif hover:text-pink">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from '../../public/circle-logo.svg';
+import Link from "next/link";
 
 import { MdDownloading } from "react-icons/md";
 
@@ -21,9 +22,9 @@ export default function Home() {
             height={48}
           />
 
-          <a className="cursor-pointer py-2 px-3 rounded flex gap-1 items-center font-bold transition text-grayish font-serif hover:text-pink">
+          <Link href={'./Marijana_Sevo_CV.pdf'} download target={"_blank"} className="cursor-pointer py-2 px-3 rounded flex gap-1 items-center font-bold transition text-grayish font-serif hover:text-pink">
             resume <MdDownloading className="text-2xl" />
-          </a>
+          </Link>
         </nav>
 
         <div className="profile-image self-center"></div>

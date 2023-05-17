@@ -1,6 +1,7 @@
 import silkenskin from '../../public/featured-img-silken-skin.png'
 import tictactoe from '../../public/tictactoe.gif'
 import webdevlpr from '../../public/webdevlpr.png'
+import comingSoon from '../../public/coming-soon.gif';
 
 import {StaticImageData} from "next/image";
 
@@ -10,7 +11,7 @@ export type ProjectsData = {
   techList: string[];
   thumbnail: StaticImageData;
   githubURL?: string;
-  liveURL: string;
+  liveURL?: string;
 }
 
 const projectsData = [
@@ -59,6 +60,17 @@ const projectsData = [
     thumbnail: tictactoe,
     githubURL: "https://github.com/marijanasevo/Tic-Tac-Toe-game",
     liveURL: "https://brilliant-granita-ac585f.netlify.app/"
+  },
+  {
+    title: "Doza Zdravlja",
+    description:
+      "This website is a comprehensive health resource dedicated to" +
+      " providing information on common health concerns. It covers topics" +
+      " related to physical and mental health, as well as lifestyle factors that impact overall well-being.",
+    techList: [
+      "Next.js",
+    ],
+    thumbnail: comingSoon,
   }
 ];
 

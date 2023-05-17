@@ -40,10 +40,12 @@ const Project = ({ project, isEven }: ProjectProps) => {
             </li>
           )}
           <li>
-            <a className="block p-2.5 hover:text-pink" target="_blank"
-               href={project.liveURL}>
-              <RxOpenInNewWindow className="w-5 h-5"/>
-            </a>
+            {project.liveURL && (
+              <a className="block p-2.5 hover:text-pink" target="_blank"
+                 href={project.liveURL}>
+                <RxOpenInNewWindow className="w-5 h-5"/>
+              </a>
+            )}
           </li>
         </ul>
       </div>

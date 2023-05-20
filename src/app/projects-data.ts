@@ -62,7 +62,7 @@ const projectsData = [
     liveURL: "https://brilliant-granita-ac585f.netlify.app/"
   },
   {
-    title: "Doza Zdravlja",
+    title: "Zdrava Doza",
     description:
       "This website is a comprehensive health resource dedicated to" +
       " providing information on common health concerns. It covers topics" +

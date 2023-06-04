@@ -2,6 +2,7 @@ import silkenskin from '../../public/featured-img-silken-skin.png'
 import tictactoe from '../../public/tictactoe.gif'
 import webdevlpr from '../../public/webdevlpr.png'
 import comingSoon from '../../public/coming-soon.gif';
+import zdravadoza from '../../public/Zdrava-Doza.webp';
 
 import {StaticImageData} from "next/image";
 
@@ -69,8 +70,10 @@ const projectsData = [
       " related to physical and mental health, as well as lifestyle factors that impact overall well-being.",
     techList: [
       "Next.js",
+      "Bootstrap"
     ],
-    thumbnail: comingSoon,
+    thumbnail: zdravadoza,
+    liveURL: "https://zdravadoza.com/"
   }
 ];
 

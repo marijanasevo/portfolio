@@ -34,19 +34,17 @@ const projectsData = [
     liveURL: "https://silken-skin.netlify.app/"
   },
   {
-    title: "webdevlpr",
+    title: "Zdrava Doza",
     description:
-      '"Webdevlpr" is a blog about web development. As the internet is' +
-      ' accessible to many, its potential for conveying ideas, solving' +
-      ' problems, and expressing oneself is virtually endless. I created' +
-      ' this blog as a platform to share my excitement and knowledge.',
+      "This website is a comprehensive health resource dedicated to" +
+      " providing information on common health concerns. It covers topics" +
+      " related to physical and mental health, as well as lifestyle factors that impact overall well-being.",
     techList: [
-      "11ty",
-      "Nunjucks",
-      "JavaScript",
+      "Next.js",
+      "Bootstrap"
     ],
-    thumbnail: webdevlpr,
-    liveURL: "https://webdevlpr.com/"
+    thumbnail: zdravadoza,
+    liveURL: "https://zdravadoza.com/"
   },
   {
     title: "Unbeatable game",
@@ -63,17 +61,20 @@ const projectsData = [
     liveURL: "https://brilliant-granita-ac585f.netlify.app/"
   },
   {
-    title: "Zdrava Doza",
+    title: "webdevlpr",
     description:
-      "This website is a comprehensive health resource dedicated to" +
-      " providing information on common health concerns. It covers topics" +
-      " related to physical and mental health, as well as lifestyle factors that impact overall well-being.",
+      '"Webdevlpr" is my personal blog about web development. As the internet' +
+      ' is' +
+      ' accessible to many, its potential for conveying ideas, solving' +
+      ' problems, and expressing oneself is virtually endless. I created' +
+      ' this blog as a platform to share my excitement and knowledge.',
     techList: [
-      "Next.js",
-      "Bootstrap"
+      "11ty",
+      "Nunjucks",
+      "JavaScript",
     ],
-    thumbnail: zdravadoza,
-    liveURL: "https://zdravadoza.com/"
+    thumbnail: webdevlpr,
+    liveURL: "https://webdevlpr.com/"
   }
 ];
 

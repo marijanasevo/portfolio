@@ -53,7 +53,7 @@ const Project = ({ project, isEven }: ProjectProps) => {
       <div
         className={`project-img-container ${isEven ? "col-start-1 col-end-7" : "col-start-7 col-end-13"} row-span-full relative h-64 before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0 before:block before:z-10 /*before:bg-dim-purple*/ before:opacity-40 before:hover:opacity-0 before:transition hidden md:block`}>
         <Image className={`${isEven ? "object-right" : "object-left"} object-contain`} src={project.thumbnail}
-               alt={project.title + ` project thumbnail`} fill={true}/>
+               alt={project.title + ` project thumbnail`} fill sizes="(max-width: 768px) 100vw, 50vw"/>
       </div>
     </div>
   );

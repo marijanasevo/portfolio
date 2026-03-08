@@ -1,16 +1,9 @@
-import silkenskin from '../../public/featured-img-silken-skin.png'
-import tictactoe from '../../public/tictactoe.gif'
-import webdevlpr from '../../public/webdevlpr.png'
-import comingSoon from '../../public/coming-soon.gif';
-import zdravadoza from '../../public/Zdrava-Doza.webp';
-
-import {StaticImageData} from "next/image";
-
 export type ProjectsData = {
   title: string;
   description: string;
   techList: string[];
-  thumbnail: StaticImageData;
+  /** Public URL path (e.g. /image.png) so images work reliably on Netlify */
+  thumbnail: string;
   githubURL?: string;
   liveURL?: string;
 }
@@ -29,7 +22,7 @@ const projectsData = [
       "Firebase Auth",
       "Vite",
     ],
-    thumbnail: silkenskin,
+    thumbnail: "/featured-img-silken-skin.png",
     githubURL: "https://github.com/marijanasevo/silkenskin",
     liveURL: "https://silken-skin.netlify.app/"
   },
@@ -43,7 +36,7 @@ const projectsData = [
       "Next.js",
       "Bootstrap"
     ],
-    thumbnail: zdravadoza,
+    thumbnail: "/Zdrava-Doza.webp",
     liveURL: "https://zdravadoza.com/"
   },
   {
@@ -56,7 +49,7 @@ const projectsData = [
       "WebPack",
       "Sass",
     ],
-    thumbnail: tictactoe,
+    thumbnail: "/tictactoe.gif",
     githubURL: "https://github.com/marijanasevo/Tic-Tac-Toe-game",
     liveURL: "https://brilliant-granita-ac585f.netlify.app/"
   },
@@ -73,7 +66,7 @@ const projectsData = [
       "Nunjucks",
       "JavaScript",
     ],
-    thumbnail: webdevlpr,
+    thumbnail: "/webdevlpr.png",
     liveURL: "https://webdevlpr.com/"
   }
 ];

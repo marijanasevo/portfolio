@@ -38,9 +38,9 @@ const Socials = () => {
           <a
             className="vertical block p-2.5 hover:text-pink"
             target="_blank"
-            href="mailto:marijana@webdevlpr.com"
+            href="mailto:marijana.sevo.tt@gmail.com"
           >
-            marijana@webdevlpr.com
+            marijana.sevo.tt@gmail.com
           </a>
         </li>
         <li className="transition hover:-translate-y-0.5">
